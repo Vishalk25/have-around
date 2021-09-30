@@ -1,0 +1,17 @@
+#carousel {
+    display: flex;
+    justify-content: center;
+    height: 380px;
+    padding-top:40px;
+    background-color:pink;
+}
+
+.carousel-img {
+    width: 600px;
+    height: 300px;  
+}
+
+.carousel-img:hover {
+    width: 670px;
+    height: 310px;
+}

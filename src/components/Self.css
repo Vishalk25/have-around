@@ -1,0 +1,44 @@
+#self-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.self-div {
+    text-align: center;
+    padding: 60px;
+    
+}
+
+#self-h {
+    margin-top: -10px;
+    color: rgb(17, 102, 17);
+    padding-bottom: 15px;
+}
+#self {
+    font-weight: 350;
+}
+
+#self-p {
+    line-height: 35px;
+}
+
+#self-btn {
+    padding: 15px;
+    border-radius: 25px;
+    width: 110px;
+    color: white;
+    background-color: rgb(17, 102, 17);
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#self-btn:hover {
+    opacity: 0.8;
+}
+
+#self-img {
+    height: 400px;
+    width: 350px;
+}

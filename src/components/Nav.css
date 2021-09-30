@@ -1,0 +1,37 @@
+#nav {
+    
+    background-color:rgb(5, 83, 5);
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-p {
+    margin-left:180px;
+    color:rgb(247, 252, 247);
+    text-decoration-line: underline;
+  text-decoration-style: wavy;
+  font-family:'Ephesis', cursive;
+  font-size:30px;
+  font-weight:600;
+}
+
+#span {
+    display:flex;
+    justify-content:right;
+    color:lightgray;
+    margin-top:50px;
+}
+
+.span {
+    padding-right:38px;
+    padding-bottom: 1px;
+    font-size: 17px;
+    font-weight:600;
+    cursor: pointer;
+}
+
+.span:hover {
+    color:rgb(8, 146, 8);
+    margin-top: -3px;
+    text-decoration: underline;
+}

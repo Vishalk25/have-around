@@ -1,0 +1,46 @@
+#card-flex {
+    display: flex;
+    flex-wrap:wrap;
+    background-image: url("https://www.amulyamica.com/files/catalog/product/1%20MM/3339.jpg");
+}
+
+.card-container {
+    width: 330px;
+    border: 2px solid grey;
+    margin: 30px 30px 20px 55px;
+    padding-left: 20px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+#card-img {
+    margin:35px 0px 0px 15px;
+    width:280px;
+    height:220px;
+    border-radius:12px;
+}
+
+#card-h {
+    text-align:center;
+    color:lightgray;
+}
+
+#card-p {
+    max-width:90%;
+     text-align: center;
+     font-weight: 400;
+    color:lightgray;
+}
+
+#card-btn {
+    margin:18px;
+     background-color: lightgray;
+     border-radius: 15px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#card-btn:hover {
+    background-color: rgb(241, 231, 231);
+    text-decoration: underline;
+}
