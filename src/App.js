@@ -1,23 +1,23 @@
-// import './App.css';
+import React from "react";
 import './components/Nav.css';
 import Navbar from "./components/Navbar";
-import Carousel from "./components/Carousel";
-import Main from "./components/Main";
-import './components/data';
-import Self from "./components/Self";
 import Footer from "./components/Footer";
+import Homepage from './pages/Homepage.jsx';
+import Menu from './pages/Menu.jsx' ;
+import Offers from "./pages/Offers";
+import { Switch , Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Carousel />
-      <Self />
-      <Main />
-      <Footer />
-        
-      
-    </>
+    <div>
+     <Navbar />
+      <Switch>
+            <Route exact path='/'><Homepage /></Route>
+            <Route path='/:dish' exact><Menu /></Route>
+            <Route exact path='/offers'><Offers /></Route>
+      </Switch>   
+    <Footer />
+    </div>
 
   );
 }

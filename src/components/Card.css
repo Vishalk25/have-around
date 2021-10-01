@@ -1,7 +1,15 @@
-#card-flex {
+.card-flex {
     display: flex;
     flex-wrap:wrap;
+    justify-content: center;
     background-image: url("https://www.amulyamica.com/files/catalog/product/1%20MM/3339.jpg");
+}
+
+#offer-card {
+    text-align: center;
+    line-height: 20px;
+    border: 4px solid black;
+    border-radius: 15px;
 }
 
 .card-container {

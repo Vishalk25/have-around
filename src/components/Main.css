@@ -12,6 +12,7 @@
     background-color: rgb(255, 255, 255);
     box-shadow: 0 20px 10px -10px rgb(126, 118, 118);
     cursor: pointer;
+    color: black;
 }
 
 #mdiv {

@@ -1,18 +1,17 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Card from "./Card";
-import Footer from "./Footer";
-import Food from "./data";
+import Card from "../components/Card";
+import Food from "../components/data";
+import {withRouter} from "react-router-dom";
 // import './Carousel.css'  
 
-function Biryani(){
+function Menu(props){
+    let dish = props.match.params.dish;
     return (
         <>
-            <Navbar />
 
-            <div id="card-flex">
+            <div className="card-flex">
             {Food.map((e)=>{
-                if(e.name == 'biryani'){
+                if(e.name == dish){
                     return(
                         <>
                         {
@@ -24,10 +23,9 @@ function Biryani(){
                     )
                 }
             })}
-            </div>
-            <Footer />  
+            </div> 
         </>
     )
 }
 
-export default Biryani;
+export default withRouter(Menu);

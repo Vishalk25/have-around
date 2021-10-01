@@ -10,7 +10,7 @@ function Self(){
                 <button id="self-btn">Like</button>
             </div>
             <div className="self-div">
-                <img id="self-img" src="https://assets.architecturaldigest.in/photos/600836eb08ae763b9ae84faa/master/w_1600,c_limit/happy-thai-mumbai-restaurant-thai-food-restaurants-in-mumbai_3-1.jpg" />
+                <img id="self-img" src="https://assets.architecturaldigest.in/photos/600836eb08ae763b9ae84faa/master/w_1600,c_limit/happy-thai-mumbai-restaurant-thai-food-restaurants-in-mumbai_3-1.jpg" alt="Check Internet" />
             </div>
 
         </div>
