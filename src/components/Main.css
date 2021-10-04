@@ -35,3 +35,7 @@
 .img-main:hover {
     padding-top: 5px;
 }
+
+.foodNames {
+    text-decoration: none;
+}

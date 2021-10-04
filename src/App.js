@@ -13,8 +13,8 @@ function App() {
      <Navbar />
       <Switch>
             <Route exact path='/'><Homepage /></Route>
-            <Route path='/:dish' exact><Menu /></Route>
             <Route exact path='/offers'><Offers /></Route>
+            <Route path='/:dish' exact><Menu /></Route>
       </Switch>   
     <Footer />
     </div>

@@ -2,10 +2,15 @@ import React from "react";
 import Card from "../components/Card";
 import Food from "../components/data";
 import {withRouter} from "react-router-dom";
-// import './Carousel.css'  
+import { useEffect } from "react";  
 
 function Menu(props){
     let dish = props.match.params.dish;
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return (
         <>
 
