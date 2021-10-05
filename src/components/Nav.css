@@ -1,5 +1,5 @@
 #nav {
-    
+    width: 100%;
     background-color:rgb(5, 83, 5);
     display: flex;
     justify-content: space-between;
@@ -40,6 +40,40 @@
     color:rgb(8, 146, 8);
     margin-top: -4px;
     text-decoration: underline;
+}
+
+#main-drop {
+    display: flex;
+    flex-direction: column;
+    position:relative;
+}
+
+#drop {
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+    border: none;
+    font-size: 16px;
+    max-width:fit-content;
+    background-color:rgb(5, 83, 5);
+    color: lightgray;
+    position:fixed;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.drop-list {
+    padding-top: 10px;
+}
+
+#review-list {
+    font-size: 17px;
+    text-decoration: underline;
+    color: rgb(8, 146, 8);
+}
+
+.drop-list:hover {
+    font-size: 17px;
 }
 
 .bi-cart {

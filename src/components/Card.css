@@ -15,7 +15,7 @@
 .card-container {
     width: 330px;
     border: 2px solid grey;
-    margin: 30px 30px 20px 55px;
+    margin: 20px 20px 30px 35px;
     padding-left: 20px;
     background-color: black;
     border-radius: 8px;
@@ -55,6 +55,6 @@
 
 #money {
     text-align:center;
-    padding-right: 20px;
+    padding-right: 20px;  
     color: lightgray;
 }

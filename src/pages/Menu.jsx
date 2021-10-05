@@ -16,7 +16,7 @@ function Menu(props){
 
             <div className="card-flex">
             {Food.map((e)=>{
-                if(e.name == dish){
+                if(e.name === dish){
                     return(
                         <>
                         {
