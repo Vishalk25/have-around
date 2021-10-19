@@ -85,3 +85,21 @@
     margin-top: -3px;
     text-decoration: underline;
 }
+
+.cartContainer {
+    position: relative;
+    width:25px;
+    margin-right: 25px;
+}
+
+
+#cartTotalItems {
+    position: absolute;
+    top: -20px;
+    right: -10px;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+}

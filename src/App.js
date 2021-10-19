@@ -3,7 +3,7 @@ import './components/Nav.css';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Homepage from './pages/Homepage.jsx';
-import Menu from './pages/Menu.jsx' ;
+import Menu from './pages/Menu' ;
 import Offers from "./pages/Offers";
 import { Switch , Route } from "react-router-dom";
 

@@ -4,11 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router} from "react-router-dom";
+import { FoodContextProvider } from './Context/FoodContextProvider';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-        <App />
+        <FoodContextProvider>
+            <App />
+        </FoodContextProvider> 
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

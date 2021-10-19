@@ -1,16 +1,34 @@
-import React from "react";
+import React, { useContext } from "react";
+import { FoodContext } from "../Context/FoodContextProvider";
 import './Card.css'
 
 function Card(props){  
+    const { handleCart } = useContext(FoodContext);
+
+    const {url, name} = props;
+    const source = url;
+    const dish = name;
+
+    const data = {
+        id: props.id,
+        name: props.name,
+        price: props.price,
+        url: props.url
+    };
+
+    const handleAddToCart = () => {
+        handleCart(data)
+    }
+
     return (
         <>
         <div id="card" >
             <div className="card-container">
-                <img id="card-img" src={props.source} />
-                <h4 id="card-h">{props.dish}</h4>
-                <p id="card-p">World class delicious dishes on your plate.{props.disc}</p>
-                <p id="money">₹ 200/-</p>
-                <button id="card-btn">Add to Bucket</button>
+                <img id="card-img" src={source} />
+                <h4 id="card-h">{dish}</h4>
+                <p id="card-p">World class delicious dishes on your plate.</p>
+                <p id="money">₹ {props.price}/-</p>
+                <button id="card-btn" onClick = {handleAddToCart}>Add to Bucket</button>
             </div>
         </div>
         </>
